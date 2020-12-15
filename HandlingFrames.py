@@ -5,6 +5,7 @@ driver.maximize_window()
 driver.get("https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html")
 driver.implicitly_wait(30)
 
+#Making changes to Script after R1.1
 driver.switch_to.frame("classFrame")
 driver.find_element_by_link_text("INDEX").click()
 
